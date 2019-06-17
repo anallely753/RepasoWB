@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+}
+/*HEADER*/
+.fondo{
+	height: 30vh;
+	background-image: url(../img/bg.jpg);
+	text-align: center;
+	opacity: .85;
+}
+
+.fondo img{
+	height: 90%;
+	width: auto;
+}
+
+nav{
+	background-color: black;
+	text-align: center;
+	padding: 1vh;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 1vh;	
+	margin: 5%;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: green;
+}
+
+/*MAIN INICIO*/
+#titulo{
+	text-align: center;
+	background-color: lightgray;
+	padding: 2vh;
+	margin: 0;
+	border-style: solid;
+	border-bottom-color: green;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.bienvenida{
+	text-align: center;
+}
+
+.bienvenida img{
+	width: 80vw;
+	padding: 1vh 0;
+}
+
+footer{
+	background-color: black;
+	text-align: center;
+	margin: 0;
+}
+
+footer a img{
+	height: 20px;
+	margin: .3em;
+}
+
+/*MAIN MENU*/
+.mainmenu{
+	background-image: url(../img/made.jpg);
+	background-attachment: fixed;
+}
+
+.mainmenu table{
+	width: 100%;
+	padding: 2vw;
+}
+
+.mainmenu table th, td{
+	width: 33%;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+table img{
+	width: 90%;
+}
+
+table td{
+	font-family: 'Playfair Display', serif;
+}
+
+h4{
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*MAIN QUEJAS*/
+.quejas{
+	padding: 4vh 10vw;
+}
+
+.quejas p{
+	text-align: justify;
+	font-family: monospace;
+}
+
+.quejas p span{
+	color: green;
+	font-weight: bold;
+}
+
+form{
+	text-align: center;
+}
+
+label{
+	display: block;
+}
+
+textarea{
+	width: 80%;
+}
+
+
+

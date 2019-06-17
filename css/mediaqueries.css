@@ -1,0 +1,46 @@
+ /*MEDIA QUERIES  0 */
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	nav a, table td, .quejas, input, select{
+		font-size: 10px;
+	}
+	#titulo, .mainmenu table th{
+		font-size: 15px;
+	}
+	footer a img{
+		height: 20px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	nav a,table td, .quejas, input, select {
+		font-size: 13px;
+	}
+	#titulo, .mainmenu table th{
+		font-size: 18px;
+	}
+	footer a img{
+		height: 25px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	nav a,table td, .quejas, input, select {
+		font-size: 17px;
+	}
+	#titulo, .mainmenu table th{
+		font-size: 22px;
+	}
+	footer a img{
+		height: 30px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
